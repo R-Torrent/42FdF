@@ -28,23 +28,23 @@ This project responds correctly to the typical window operations, such as the *m
 	'K' or 'k' : scale z up
 	'C' or 'c' : toggle color gradation
 
-The default color treatment is to split the segments evenly between the endpoint colors. A more interesting—and quite stunning—effect is accomplished with the color gradiient option (`C` key).
+The default color treatment is to split the segments evenly between the endpoint colors. A more interesting—and quite stunning—effect is accomplished with the color gradient option (`C` key).
 
 ## Screen captures
 
-General view. Map is loaded, centered in the window, and zoomed until it hits the frame. Isometric perspective from the usual octant.
+1. General view. Map is loaded, centered in the window, and zoomed until it hits the frame. Isometric perspective from the usual octant.
 
 ![General view](src/A.png "It works!")
 
-Elevation distorted with the `K` key.
+2. Elevation distorted with the `K` key.
 
 ![Exaggerated elevation](src/B.png)
 
-Users may move around the map and zoom in at will. The default color assignment splits segments at the midpoint, with each half taking on the color of its endpoint.
+3. Users may move around the map and zoom in at will. The default color assignment splits segments at the midpoint, with each half taking on the color of its endpoint.
 
 ![Zoom & default coloring](src/C.png)
 
-`C` key toggles a stunning color gradation between endpoints.
+4. `C` key toggles a stunning color gradation between endpoints.
 
 ![Close-up of the color gradation, same view](src/D.png "Wow!")
 
@@ -89,10 +89,12 @@ Unfortunately, this project was rushed 25 hours before *Blackhole Absorption* an
 
 - Rotations, nicely coded with quaternions
 
-- ON/OFF toggle for the visibility of hidden wires
+- ON/OFF toggle for the visibility of hidden wires, or complete fill-in of the displayed mesh
 
 - Cycle between all eight octants for the direction of the isometric projection
 
-- Some conic perspective with two additional keys to control distance from viewer. Perhaps with anoher pair of keys to play with the focal length as well
+- Some conic perspectives with two additional keys to control distance from viewer. Perhaps with anoher pair of keys to play with the focal length as well
 
-- On-screen data annotations for the user, again with some ON/OFF toggle. Perhaps some *help* screen too
+- Overlayed on-screen data annotations for the user, again with some ON/OFF toggle.
+
+- A *help* screen
