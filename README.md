@@ -91,10 +91,10 @@ Unfortunately, this project was rushed 25 hours before *Blackhole Absorption* an
 
 - ON/OFF toggle for the visibility of hidden wires, or complete fill-in of the displayed mesh
 
-- Cycle between all eight octants for the direction of the isometric projection
+- Cycle between all eight directions producing *isometric projections*, that is, the eight octants. Explore other parallel perspectives (*cavalier projection*, *cabinet projection*, *military projection*)
 
-- Some conic perspectives with two additional keys to control distance from viewer. Perhaps with anoher pair of keys to play with the focal length as well
+- Conic perspectives with two additional keys to control distance from viewer, and another pair of keys to play with the focal length
 
-- Overlayed on-screen data annotations for the user, again with some ON/OFF toggle.
+- Overlayed on-screen data annotations for the user, again with some ON/OFF toggle
 
 - A *help* screen
